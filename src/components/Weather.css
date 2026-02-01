@@ -43,7 +43,7 @@
 .temperature{
     
     color: #ffffff;
-    font-size: 48px;
+    font-size: 60px;
     line-height: 1;
 }
 
@@ -64,7 +64,7 @@
     display: flex;
     align-items: flex;
     gap: 12px;
-    font-size: 22px;
+    font-size: 40px;
 }
 
 .weather-data .col span{
@@ -73,6 +73,11 @@
 }
 
 .weather-data .col img{
-    width: 26px;
+    width: 40px;
+    margin-top: 10px;
+}
+
+..weather-data .col img bar{
+    width: 40px;
     margin-top: 10px;
 }
